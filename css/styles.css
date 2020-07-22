@@ -1,3 +1,10 @@
 .jumbotron{
     background-color: red;
+    width: 1135px;
+}
+.col-md-4{
+    background-color: green;
+}
+.col-md-8{
+    background-color: yellow;
 }
