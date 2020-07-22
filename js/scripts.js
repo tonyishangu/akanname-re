@@ -1,5 +1,5 @@
 // The names listed below are ordered by days from Sunday
-const maleAkanNames = [
+const maleAkanNmes = [
   "Kwame",
   "Kwasi",
   "Kwadwo",
