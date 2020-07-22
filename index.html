@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Akan Name Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Akan Name Generator</h1>
+        <p>
+          The Akans are a meta-ethnicity who primarily live in Ghana and Ivory
+          Coast. They have a fairly unique naming system, which is based on the
+          day in the week a child is born, and on the gender of the child. So a
+          boy born on a Monday would be named Kwadwo or Koho, and a girl would
+          be called Adwoa. Each day has one or more variants, but there's
+          usually not much to choose from.
+        </p>
+        <hr class="my-4" />
+        <p>
+          The table below shows a list of Akan names. If you can't quite recall
+          the day of the week you were born, consider using the name generator.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <table class="table table-striped">
+            <caption>
+              <em>List of male and female Akan names.</em>
+            </caption>
+            <thead>
+              <tr>
+                <td>&nbsp;</td>
+                <th>Male</th>
+                <th>Female</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Sunday</th>
+                <td>Kwasi</td>
+                <td>Akosua</td>
+              </tr>
+              <tr>
+                <th>Monday</th>
+                <td>Kwadwo</td>
+                <td>Adwoa</td>
+              </tr>
+              <tr>
+                <th>Tuesday</th>
+                <td>Kwabena</td>
+                <td>Abenaa</td>
+              </tr>
+              <tr>
+                <th>Wednesday</th>
+                <td>Kwaku</td>
+                <td>Akua</td>
+              </tr>
+              <tr>
+                <th>Thursday</th>
+                <td>Yaw</td>
+                <td>Yaa</td>
+              </tr>
+              <tr>
+                <th>Friday</th>
+                <td>Kofi</td>
+                <td>Afua</td>
+              </tr>
+              <tr>
+                <th>Saturday</th>
+                <td>Kwame</td>
+                <td>Ama</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4">
+          <form action="#" onsubmit="deriveAkanName()">
+            <input
+              class="form-control"
+              type="number"
+              min="1"
+              max="31"
+              name="day"
+              placeholder="Day"
+              required
+            />
+            <input
+              class="form-control"
+              type="number"
+              min="1"
+              max="12"
+              name="month"
+              placeholder="Month"
+              required
+            />
+            <input
+              class="form-control"
+              type="number"
+              min="1920"
+              max="2019"
+              name="year"
+              placeholder="Year"
+              required
+            />
+            <select class="form-control" id="gender" name="gender">
+              <option disabled selected>Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+            <button class="btn btn-block btn-outline-dark" type="submit">
+              Generate
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/scripts.js"></script>
+</html>
