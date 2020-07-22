@@ -11,3 +11,8 @@
 table.table-striped{
     color: red;
 }
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
