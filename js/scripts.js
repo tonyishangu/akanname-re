@@ -42,7 +42,7 @@ function calculateWeekDay(birthDate) {
   // Count Jan & Feb  as months 13 and 14 of the previous year.
   if (monthOfYear <= 2) {
     monthOfYear += 12;
-    yearOfBrth -= 1;
+    yearOfBirth -= 1;
   }
 
   // Split year to centuryCode & yearCode
@@ -55,8 +55,7 @@ function calculateWeekDay(birthDate) {
         2.6 * (monthOfYear + 1) +
           yearOfCentury +
           parseInt(yearOfCentury / 4) +
-          parseInt(zeroBasedCentury / 4) +
-          5 * zeroBasedCentury
+          parseInt(zeroBasedCentury / 4) + 5 * zeroBasedCentury
       )) %
     7;
 
