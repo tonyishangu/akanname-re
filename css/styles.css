@@ -8,3 +8,6 @@
 .col-md-8{
     background-color: yellow;
 }
+table.table-striped{
+    color: red;
+}
