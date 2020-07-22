@@ -1,5 +1,5 @@
 // The names listed below are ordered by days from Sunday
-const maleAkanNmes = [
+const maleAkanNames = [
   "Kwame",
   "Kwasi",
   "Kwadwo",
@@ -41,7 +41,7 @@ function calculateWeekDay(birthDate) {
 
   // Count Jan & Feb  as months 13 and 14 of the previous year.
   if (monthOfYear <= 2) {
-    monthOfYear += 12;
+    mothOfYear += 12;
     yearOfBirth -= 1;
   }
 
